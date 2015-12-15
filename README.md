@@ -12,6 +12,14 @@ Crear una segunda rama remota:
 - mediante el comando git branch y nos situaremos en ella mediante el comando git checkout 
 - o podemos realizar ambas acciones mediante un solo comando git checkout -b.
 
+Merge con conflicto:
+- Cambiamos los texto de los ficheros 1.txt de cada rama y al intentar realizar el merge nos da error ya que estos son diferentes y no sabe cual es el correcto.
+- vemos las diferencias entre las ramas con el comando git brach --merge/--no-merge
+- para solucionar el problema devemos indicar cual de los dos ficheros es el correcto, es decir, subirlo al staging area y asi ya poder realizar el commit.
+
+Borrar rama:
+- para borrar una rama se utiliza el comando git branch -d NombreRama (v0.2)
+
 
 
 
